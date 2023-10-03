@@ -1,0 +1,81 @@
+.filter .container {
+  height: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.filter .search input {
+  width: 20vw;
+  padding: 0.6vw;
+  outline: none;
+  border-radius: 3px;
+  font-family: "Virgula Vulgaris", sans-serif;
+}
+
+.filter .major select {
+  font-family: "Virgula Vulgaris", sans-serif;
+  outline: none;
+  width: 10vw;
+  padding: 0.6vw;
+  border-radius: 3px;
+}
+
+.filter .addBtn a {
+  text-decoration: none;
+  padding: 0.7vw;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 900px) {
+  .filter .container {
+    height: 8vh;
+  }
+  .filter .search input {
+    width: 30vw;
+    padding: 1vw;
+  }
+
+  .filter .major select {
+    width: 15vw;
+    padding: 1vw;
+  }
+
+  .filter .addBtn a {
+    padding: 1vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .filter .container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1rem;
+  }
+  .filter .search {
+    width: 60%;
+  }
+  .filter .search input {
+    width: 100%;
+    margin: 2vh 0;
+    padding: 2vw;
+  }
+  .filter .major {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .filter .major i {
+    margin: 0 4vw;
+  }
+  .filter .major select {
+    padding: 2vw;
+    width: 100%;
+  }
+  .filter .addBtn {
+    width: 40%;
+  }
+  .filter .addBtn a {
+    padding: 2vw;
+  }
+}

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Virgula Vulgaris";
+  src: url("./Helper/font/Virgula-Vulgaris.eot");
+  src: url("./Helper/font/Virgula-Vulgaris.eot?#iefix")
+      format("embedded-opentype"),
+    url("./Helper/font/Virgula-Vulgaris.woff2") format("woff2"),
+    url("./Helper/font/Virgula-Vulgaris.woff") format("woff"),
+    url("./Helper/font/Virgula-Vulgaris.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Virgula Vulgaris";
+
+  background-color: #282a36;
+}
+input:not(input[type="submit"]),
+select:not(input[type="submit"]) {
+  background-color: #bd93f9;
+  border: 2px solid #282a36;
+  color: #282a36;
+  font-family: "Virgula Vulgaris";
+}
+button {
+  font-family: "Virgula Vulgaris";
+}

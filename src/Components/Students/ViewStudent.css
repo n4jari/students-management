@@ -1,0 +1,82 @@
+.viewStudent .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewStudent .container .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+  width: 55%;
+  box-shadow: 1px 3px 5px rgba(17, 17, 17, 0.411);
+}
+.viewStudent .container .card img {
+  width: 25vw;
+  height: 25vw;
+  border-radius: 3px;
+  box-shadow: 1px 3px 5px rgba(17, 17, 17, 0.411);
+}
+
+.viewStudent .container .card .card_body {
+  display: block;
+  margin: auto;
+}
+
+.viewStudent .container .card .card_body p span:first-child {
+  margin-right: 2vw;
+  color: #6272a4;
+}
+
+.viewStudent .container .card .card_body a {
+  text-decoration: none;
+  padding: 0.3vw 1vw;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 900px) {
+  .viewStudent .container {
+    margin-top: 1rem;
+  }
+
+  .viewStudent .container .card {
+    width: 80%;
+    box-shadow: 1px 3px 5px rgba(17, 17, 17, 0.411);
+  }
+
+  .viewStudent .container .card img {
+    width: 38vw;
+    height: 38vw;
+    border-radius: 5px;
+  }
+
+  .viewStudent .container .card .card_body a {
+    padding: 0.5vw 2vw;
+    border-radius: 3px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .viewStudent .container {
+    margin-top: 1rem;
+  }
+
+  .viewStudent .container .card {
+    padding: 3vw;
+    width: 85%;
+  }
+
+  .viewStudent .container .card img {
+    width: 100%;
+    height: 80vw;
+  }
+
+  .viewStudent .container .card .card_body a {
+    padding: 1vw 5vw;
+    border-radius: 3px;
+  }
+  .viewStudent .container .card .card_body {
+    text-align: center;
+  }
+}
